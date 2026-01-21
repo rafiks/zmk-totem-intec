@@ -142,9 +142,7 @@ display-name="BASE";
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp Q       &kp W       &kp F       &kp P       &kp B           &kp J       &kp L       &kp U       &kp Y       &kp SEMI
-                /* &hm_lgui LGUI A  &mt LALT R  &mt LSHFT S &mt LCTRL T &kp G           &kp M       &mt RCTRL N &mt RSHFT E &mt RALT I  &hm_rgui RGUI O */
-                /* &mt LGUI A  &mt LALT R  &mt LSHFT S &mt LCTRL T &kp G           &kp M       &mt RCTRL N &mt RSHFT E &mt RALT I  &mt RGUI O */
-                &hml LGUI A  &hml LALT R  &hml LSHFT S &hml LCTRL T &kp G           &kp M       &hmr RCTRL N &hmr RSHFT E &hmr RALT I  &hmr RGUI O
+           &hml LGUI A   &hml LALT R  &hml LSHFT S &hml LCTRL T &kp G           &kp M     &hmr RCTRL N  &hmr RSHFT E &hmr RALT I  &hmr RGUI O
     &kp Q       &kp Z       &kp X       &kp C       &kp D       &kp V           &kp K       &kp H       &kp COMMA   &kp DOT     &kp FSLH    &kp BSLH
                                         &kp DEL   &lt NAV TAB   &kp SPACE       &kp RET   &lt SYM ESC   &kp BSPC
                         >;
@@ -172,7 +170,7 @@ display-name="NAV";
 
                 &kp ESC     &bt BT_CLR  &kp UP      &kp EQUAL   &kp LBRC        &kp RBRC    &kp N7   &kp N8   &kp N9   &kp PLUS
                 &kp LSHFT   &kp LEFT    &kp DOWN    &kp RIGHT   &kp LBKT        &kp RBKT    &kp N4   &kp N5   &kp N6   &kp MINUS
-    &home_down      &kp DEL     &kp PG_UP   &kp CAPS    &kp PG_DN   &kp LPAR        &kp RPAR    &kp N1   &kp N2   &kp N3   &kp ASTERISK &trans      
+  &home_down    &kp DEL     &kp PG_UP   &caps_word  &kp PG_DN   &kp LPAR        &kp RPAR    &kp N1   &kp N2   &kp N3   &kp ASTERISK &trans      
                                         &trans      &trans      &trans          &mo ADJ     &kp N0   &trans      
                         >;
                 };
